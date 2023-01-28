@@ -5,6 +5,7 @@ Presenta informacion, código y archivos con datos para entrenar modelos.
 En internet se puede encontrar muchos repositorios muy completos, la dificultad está asociada a encontrar la data, categorizarla y entrenar los modelos.
 
 >Hay además diversos creadores de contenido que diseñan en sus videos, aplicaciones que utilizan el reconocimiento de imagenes:
+>
 >- [Aprende e Ingenia](https://www.youtube.com/@AprendeIngenia/)
 >   - [Aprende Inteligencia Artificial y Vision por Computadora](https://www.youtube.com/watch?v=zpRl8rEvjbo&list=PLnKxR99sdlEiRC4sBFwSJ-8SiDW4Gx6y6)
 >- [CodingEntrepreneurs](https://www.youtube.com/@CodingEntrepreneurs)
@@ -26,7 +27,7 @@ En el siguiente link se presenta una guia de la implementacion de esta libreria:
 
 [Real-Time Face Recognition: An End-To-End Project](https://towardsdatascience.com/real-time-face-recognition-an-end-to-end-project-b738bb0f7348)
 
-### tensorflow
+### Tensorflow
 
 Permite entrenar los modelos de inteligencia artificial. El prototipo que realiza la segmentación de genero utiliza esta librearia.
 
@@ -50,5 +51,6 @@ Permite entrenar los modelos de inteligencia artificial. El prototipo que realiz
 1. [libfaceid, a Face Recognition library for everybody](https://github.com/richmondu/libfaceid)
     > Repositorio utilizado para entrenar el modelo de segmentación de edad.
     >
-    > Es uno de los repositorios más completos para reconocimiento facil. Requiere, principalmente de entrenar el modelo con una buena carpeta de imagenes.
+    > Es uno de los repositorios más completos para reconocimiento facil. Requiere, principalmente de entrenar el modelo con una buena carpeta de imagenes ([datasets.zip](https://drive.google.com/file/d/1V6VmmDWNogP1ck8KHPks4bajuA_SWluO/view?usp=share_link)).
+    > *Para ejecutar el código con esta carpeta, se debe realizar pequeñas modificaciones en los argumentos de las funciones del modelo, de esta forma se puede ejecutar*.
 2. [People-tracking-with-Age-and-Gender-detection](https://github.com/habom2310/People-tracking-with-Age-and-Gender-detection)
