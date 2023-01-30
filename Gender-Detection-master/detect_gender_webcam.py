@@ -4,9 +4,10 @@ import numpy as np
 import cv2
 import os
 import cvlib as cv
-                    
+
+folder='Gender-Detection-master/'                    
 # load model
-model = load_model('gender_detection.model')
+model = load_model(f"{folder}gender_detection.model")
 
 # open webcam
 webcam = cv2.VideoCapture(0)

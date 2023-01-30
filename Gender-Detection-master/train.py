@@ -22,8 +22,9 @@ img_dims = (96,96,3)
 data = []
 labels = []
 
+path_to_folder = r'C:\Files\gender_dataset_face' + "/**/*"
 # load image files from the dataset
-image_files = [f for f in glob.glob(r'C:\Files\gender_dataset_face' + "/**/*", recursive=True) if not os.path.isdir(f)]
+image_files = [f for f in glob.glob(path_to_folder , recursive=True) if not os.path.isdir(f)]
 random.shuffle(image_files)
 
 # converting images to arrays and labelling the categories
